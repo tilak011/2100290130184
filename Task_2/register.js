@@ -1,12 +1,14 @@
 const axios = require('axios');
 
 const data = {
-    companyName: 'Ganesh',
-    clientID: '43b18f88-fa2d-493c-8dbf-2935fb64f3a5',
-    clientSecret: 'gCELWgMVnSQlKDIb',
-    ownerName: 'T Ganesh',
-    ownerEmail: 'ganeshclever235@gmail.com',
-    rollNo: '20MIC0017'
+  {
+    companyName: 'kiet123',
+    clientID: '466b757d-af50-4851-a22e-2fa7801f7058',
+    clientSecret: 'VUJZYMTVixUJkBEH',
+    ownerName: 'Tilak raj dixit',
+    ownerEmail: 'tilak.2125it1124@kiet.edu',
+    rollNo: '2100290130184'
+  }
 };
 axios.post('http://20.244.56.144/test/auth', data)
   .then(response => {
